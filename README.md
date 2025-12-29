@@ -38,13 +38,13 @@
 
 <div align="center">
 
-|         Scout Page         |             Dashboard              |
-| :------------------------: | :--------------------------------: |
-| ![Scout](./docs/scout.png) | ![Dashboard](./docs/dashboard.png) |
+|           Scout Page           |               Dashboard                |
+| :----------------------------: | :------------------------------------: |
+| ![Scout](Zoner/docs/scout.png) | ![Dashboard](Zoner/docs/dashboard.png) |
 
-|             Webhooks             |             Settings             |
-| :------------------------------: | :------------------------------: |
-| ![Webhooks](./docs/webhooks.png) | ![Settings](./docs/settings.png) |
+|               Webhooks               |               Settings               |
+| :----------------------------------: | :----------------------------------: |
+| ![Webhooks](Zoner/docs/webhooks.png) | ![Settings](Zoner/docs/settings.png) |
 
 </div>
 
