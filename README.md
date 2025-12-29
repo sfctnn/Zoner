@@ -34,22 +34,6 @@
 
 ---
 
-## 📸 Screenshots
-
-<div align="center">
-
-|         Scout Page         |             Dashboard              |
-| :------------------------: | :--------------------------------: |
-| ![Scout](./docs/scout.png) | ![Dashboard](./docs/dashboard.png) |
-
-|             Webhooks             |             Settings             |
-| :------------------------------: | :------------------------------: |
-| ![Webhooks](./docs/webhooks.png) | ![Settings](./docs/settings.png) |
-
-</div>
-
----
-
 ## 🚀 Installation
 
 ### Prerequisites
