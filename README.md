@@ -38,13 +38,13 @@
 
 <div align="center">
 
-|           Scout Page           |               Dashboard                |
-| :----------------------------: | :------------------------------------: |
-| ![Scout](Zoner/docs/scout.png) | ![Dashboard](Zoner/docs/dashboard.png) |
+|         Scout Page         |             Dashboard              |
+| :------------------------: | :--------------------------------: |
+| ![Scout](./docs/scout.png) | ![Dashboard](./docs/dashboard.png) |
 
-|               Webhooks               |               Settings               |
-| :----------------------------------: | :----------------------------------: |
-| ![Webhooks](Zoner/docs/webhooks.png) | ![Settings](Zoner/docs/settings.png) |
+|             Webhooks             |             Settings             |
+| :------------------------------: | :------------------------------: |
+| ![Webhooks](./docs/webhooks.png) | ![Settings](./docs/settings.png) |
 
 </div>
 
@@ -252,8 +252,8 @@ This project is licensed under the **MIT License** — see the [LICENSE](./LICEN
 
 <div align="center">
 
-**Made with ❤️ for deal hunters everywhere**
+**I dont even know why i did this :p**
 
-⭐ Star this repo if you find it useful!
+⭐ Star this repo if you find it useful! please improve it :)
 
 </div>
