@@ -25,12 +25,12 @@
 | Feature                    | Description                                                                                      |
 | -------------------------- | ------------------------------------------------------------------------------------------------ |
 | 🔍 **Scout Mode**          | Search Amazon directly from the app. Supports multi-region: 🇺🇸 USA, 🇹🇷 Turkey, 🇩🇪 Germany, 🇬🇧 UK |
-| 📉 **Smart Monitoring**    | Set a "Target Price" or "Discount % Threshold" — get alerted when conditions are met             |
-| ⚡ **Real-Time Tracking**  | Background Python engine checks prices at user-defined intervals (5-60 min)                      |
-| 🔔 **Discord Integration** | Rich embed notifications sent directly to your phone/server via webhooks                         |
-| 💾 **SQLite Persistence**  | Tracked products survive restarts with local database storage                                    |
-| 🔒 **Rate Limiting**       | Built-in protection against API abuse (10 searches/min, 20 tracks/min)                           |
-| 🛡️ **Privacy Focused**     | No cloud auth, no external servers. 100% self-hosted on your machine                             |
+| 📉 **Smart Monitoring**    | Set a "Target Price" or "Discount % Threshold" — get alerted when conditions are met            |
+| ⚡ **Real-Time Tracking**  | Background Python engine checks prices at user-defined intervals (5-60 min)                     |
+| 🔔 **Discord Integration** | Rich embed notifications sent directly to your phone/server via webhooks                        |
+| 💾 **SQLite Persistence**  | Tracked products survive restarts with local database storage                                   |
+| 🔒 **Rate Limiting**       | Built-in protection against API abuse (10 searches/min, 20 tracks/min)                          |
+| 🛡️ **Privacy Focused**     | No cloud auth, no external servers. 100% self-hosted on your machine                            |
 
 ---
 
@@ -131,9 +131,9 @@ CORS_ORIGINS=http://localhost:5173,https://yourdomain.com
 ┌─────────────────────────────────────────────────────────────┐
 │                        FRONTEND                             │
 │                     (React + Vite)                          │
-│  ┌─────────┐  ┌──────────┐  ┌────────────┐  ┌───────────┐  │
-│  │  Scout  │  │Dashboard │  │  Settings  │  │ Webhooks  │  │
-│  └────┬────┘  └────┬─────┘  └─────┬──────┘  └─────┬─────┘  │
+│  ┌─────────┐  ┌──────────┐  ┌────────────┐  ┌───────────┐   │
+│  │  Scout  │  │Dashboard │  │  Settings  │  │ Webhooks  │   │
+│  └────┬────┘  └────┬─────┘  └─────┬──────┘  └─────┬─────┘   │
 │       │            │              │               │         │
 │       └────────────┴──────────────┴───────────────┘         │
 │                           │                                 │
@@ -149,16 +149,16 @@ CORS_ORIGINS=http://localhost:5173,https://yourdomain.com
 │                        BACKEND                              │
 │                   (Python + FastAPI)                        │
 │                                                             │
-│  ┌──────────────┐    ┌──────────────┐    ┌──────────────┐  │
-│  │  /search     │    │   /track     │    │  /tracked    │  │
-│  │  (GET)       │    │   (POST)     │    │  (GET/DEL)   │  │
-│  └──────┬───────┘    └──────┬───────┘    └──────────────┘  │
+│  ┌──────────────┐    ┌──────────────┐    ┌──────────────┐   │
+│  │  /search     │    │   /track     │    │  /tracked    │   │
+│  │  (GET)       │    │   (POST)     │    │  (GET/DEL)   │   │
+│  └──────┬───────┘    └──────┬───────┘    └──────────────┘   │
 │         │                   │                               │
 │         ▼                   ▼                               │
-│  ┌──────────────┐    ┌──────────────┐                      │
-│  │  ScraperAPI  │    │   SQLite     │                      │
-│  │  (Scraping)  │    │   (zoner.db) │                      │
-│  └──────────────┘    └──────────────┘                      │
+│  ┌──────────────┐    ┌──────────────┐                       │
+│  │  ScraperAPI  │    │   SQLite     │                       │
+│  │  (Scraping)  │    │   (zoner.db) │                       │
+│  └──────────────┘    └──────────────┘                       │
 │                             │                               │
 │                    APScheduler                              │
 │                   (Background Jobs)                         │
